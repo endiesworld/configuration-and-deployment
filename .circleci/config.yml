@@ -62,7 +62,7 @@ jobs:
           command: |
             ansible-playbook -i inventory main-remote.yml
 
-  # Exercise: Smoke Testing
+  # Exercise: Smoke Testing. the existing url should be replaced with the exact url you intend to test
   smoke_test:
     docker:
       - image: alpine:latest
